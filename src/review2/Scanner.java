@@ -1,6 +1,11 @@
 package review2;
 
+import java.io.InputStream;
+
 public class Scanner {
+    public Scanner(InputStream in) {
+    }
+
     public static void main(String[] args) {
 
         System.out.println("What is the day?");
